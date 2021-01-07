@@ -17,14 +17,18 @@ body{
 
 .instructions{
     position: center;
-    margin-left: 140px;
-    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .bag{
     width: 495;
     height: 442;
-    margin-left: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .blanks{
@@ -33,6 +37,8 @@ body{
     grid-row-gap: 40px;
     grid-column-gap: 20px;
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .blank_item{
@@ -40,6 +46,7 @@ body{
     font-family: PT Sans;
     font-size: 15px;
     text-transform: uppercase;
+    padding: 10px;
 }
 
 .blank_number{
@@ -56,7 +63,9 @@ body{
     margin-top: 25px;
     justify-content: center;
     position: static;
-    margin-left: 255px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .hide{
