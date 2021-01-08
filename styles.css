@@ -39,6 +39,7 @@ body{
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
 }
 
 .blank_item{
@@ -59,10 +60,16 @@ body{
 .submit-btn{
     height: 32px;
     width: 120px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     margin-top: 25px;
-    justify-content: center;
-    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.return-btn{
+    width: 200px ;
+    margin-bottom: 100px; 
     margin-left: auto;
     margin-right: auto;
     display: block;
